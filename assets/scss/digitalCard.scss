@@ -89,7 +89,7 @@ main.affiliate-page {
     padding: 250px 20px;
 
     background-image: url('../images/title_background_mobile.jpg');
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 
     @media only screen and (min-width: 576px) {
@@ -97,11 +97,8 @@ main.affiliate-page {
     }
 
     @media only screen and (min-width: 992px) {
-      padding: 191px 293px;
-    }
-
-    @media only screen and (min-width: 768px) {
       background-image: url('../images/title_background.png');
+      padding: 191px 293px;
     }
 
     .triv-button{
@@ -303,8 +300,8 @@ main.affiliate-page {
               }
   
               @media only screen and (min-width: 992px) {
-                width:60px;
-                height:60px;
+                width: 60px;
+                height: 60px;
                 top: 40%;
                 transform: translateY(-60%);
               }
@@ -314,7 +311,7 @@ main.affiliate-page {
               left: 9px;
   
               @media screen and (min-width: 992px) {
-                left: -4%;
+                left: -3%;
               }
             }
   
@@ -322,7 +319,7 @@ main.affiliate-page {
               right: 9px;
   
               @media screen and(min-width:992px) {
-                right: -4%;
+                right: -3%;
               }
             }
           }
@@ -452,7 +449,7 @@ main.affiliate-page {
               left: 9px;
 
               @media screen and (min-width: 992px) {
-                left: -4%;
+                left: -3%;
               }
             }
 
@@ -460,7 +457,7 @@ main.affiliate-page {
               right: 9px;
 
               @media screen and(min-width:992px) {
-                right: -4%;
+                right: -3%;
               }
             }
           }

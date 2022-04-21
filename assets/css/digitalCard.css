@@ -92,7 +92,7 @@ main.affiliate-page .triv-percent-text {
 main.affiliate-page section.triv-title {
   padding: 250px 20px;
   background-image: url("../images/title_background_mobile.jpg");
-  background-size: cover;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 
@@ -104,13 +104,8 @@ main.affiliate-page section.triv-title {
 
 @media only screen and (min-width: 992px) {
   main.affiliate-page section.triv-title {
-    padding: 191px 293px;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  main.affiliate-page section.triv-title {
     background-image: url("../images/title_background.png");
+    padding: 191px 293px;
   }
 }
 
@@ -353,7 +348,7 @@ main.affiliate-page section.triv-version .triv-tab1 .triv-giftCardDigitalSlider 
 
 @media screen and (min-width: 992px) {
   main.affiliate-page section.triv-version .triv-tab1 .triv-giftCardDigitalSlider #giftCardDigital-ow .tns-controls button[data-controls='prev'] {
-    left: -4%;
+    left: -3%;
   }
 }
 
@@ -363,7 +358,7 @@ main.affiliate-page section.triv-version .triv-tab1 .triv-giftCardDigitalSlider 
 
 @media screen and (min-width: 992px) {
   main.affiliate-page section.triv-version .triv-tab1 .triv-giftCardDigitalSlider #giftCardDigital-ow .tns-controls button[data-controls='next'] {
-    right: -4%;
+    right: -3%;
   }
 }
 
@@ -512,7 +507,7 @@ main.affiliate-page section.triv-version .triv-tab2 .triv-giftCardFisikSlider #g
 
 @media screen and (min-width: 992px) {
   main.affiliate-page section.triv-version .triv-tab2 .triv-giftCardFisikSlider #giftCardFisik-ow .tns-controls button[data-controls='prev'] {
-    left: -4%;
+    left: -3%;
   }
 }
 
@@ -522,7 +517,7 @@ main.affiliate-page section.triv-version .triv-tab2 .triv-giftCardFisikSlider #g
 
 @media screen and (min-width: 992px) {
   main.affiliate-page section.triv-version .triv-tab2 .triv-giftCardFisikSlider #giftCardFisik-ow .tns-controls button[data-controls='next'] {
-    right: -4%;
+    right: -3%;
   }
 }
 
