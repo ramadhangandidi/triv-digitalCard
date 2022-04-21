@@ -90,10 +90,16 @@ main.affiliate-page .triv-percent-text {
 }
 
 main.affiliate-page section.triv-title {
-  padding: 131px 20px;
+  padding: 250px 20px;
   background-image: url("../images/title_background_mobile.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+@media only screen and (min-width: 576px) {
+  main.affiliate-page section.triv-title {
+    background-position-y: 50%;
+  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -579,7 +585,16 @@ main.affiliate-page section.triv-titleFooter {
   main.affiliate-page section.triv-titleFooter {
     padding-top: 60px;
     padding-bottom: 60px;
-    background-position-x: 50%;
+    background-position-x: 80%;
+    background-image: url("../images/home-bg-website.png");
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  main.affiliate-page section.triv-titleFooter {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-position-x: 80%;
     background-image: url("../images/home-bg-website.png");
   }
 }

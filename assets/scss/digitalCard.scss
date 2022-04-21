@@ -86,11 +86,15 @@ main.affiliate-page {
   }
 
   section.triv-title {
-    padding: 131px 20px;
+    padding: 250px 20px;
 
     background-image: url('../images/title_background_mobile.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+
+    @media only screen and (min-width: 576px) {
+      background-position-y: 50%;
+    }
 
     @media only screen and (min-width: 992px) {
       padding: 191px 293px;
@@ -515,9 +519,16 @@ main.affiliate-page {
 
     @media only screen and (min-width: 768px) {
       padding-top: 60px;
-      padding-bottom: 60px;
-      // background-size: 170% 100%;
-      background-position-x: 50%;
+      padding-bottom: 60px;      
+      background-position-x: 80%;
+
+      background-image: url('../images/home-bg-website.png');
+    }
+
+    @media only screen and (min-width: 992px) {
+      padding-top: 60px;
+      padding-bottom: 60px;      
+      background-position-x: 80%;
 
       background-image: url('../images/home-bg-website.png');
     }
