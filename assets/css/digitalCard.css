@@ -24,6 +24,12 @@
   }
 }
 
+@media only screen and (min-width: 1400px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
 main.affiliate-page .font-slider {
   font-size: 42px;
 }
@@ -564,45 +570,50 @@ main.affiliate-page section.triv-version .triv-tab2 .triv-tabFooter img {
 }
 
 main.affiliate-page section.triv-titleFooter {
-  padding-top: 60px;
-  padding-bottom: 300px;
+  background: #07456F;
   background-image: url("../images/home-bg.png");
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position-y: bottom;
+  background-size: contain;
+  background-position: bottom;
+  height: 518px;
+  padding-top: 60px;
 }
 
-@media only screen and (min-width: 576px) {
+@media only screen and (min-width: 428px) {
   main.affiliate-page section.triv-titleFooter {
-    padding-top: 60px;
-    padding-bottom: 375px;
-    background-position-y: bottom;
-    background-image: url("../images/home-bg.png");
+    background-size: cover;
+    background-position-y: 70%;
   }
 }
 
 @media only screen and (min-width: 768px) {
   main.affiliate-page section.triv-titleFooter {
-    padding-top: 60px;
-    padding-bottom: 60px;
-    background-position-x: 80%;
+    height: 336px;
+    padding-top: 0;
     background-image: url("../images/home-bg-website.png");
+  }
+  main.affiliate-page section.triv-titleFooter .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 
 @media only screen and (min-width: 992px) {
   main.affiliate-page section.triv-titleFooter {
-    padding-top: 60px;
-    padding-bottom: 60px;
-    background-position-x: 80%;
     background-image: url("../images/home-bg-website.png");
   }
 }
 
 @media only screen and (min-width: 1200px) {
   main.affiliate-page section.triv-titleFooter {
-    padding-top: 60px;
-    padding-bottom: 60px;
     background-image: url("../images/home-bg-website.png");
   }
 }

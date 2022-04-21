@@ -24,6 +24,12 @@
   }
 }
 
+.container {
+  @media only screen and (min-width: 1400px) {
+    max-width: 1140px;
+  }
+}
+
 main.affiliate-page {
   .font-slider {
     font-size: 42px;
@@ -501,42 +507,37 @@ main.affiliate-page {
   }
   
   section.triv-titleFooter {
-    padding-top: 60px;
-    padding-bottom: 300px;
+    background: #07456F;
 
     background-image: url('../images/home-bg.png');
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position-y: bottom;
+    background-size: contain;
+    background-position: bottom;
+    height: 518px;
+    padding-top: 60px;
 
-    @media only screen and (min-width: 576px) {
-      padding-top: 60px;
-      padding-bottom: 375px;      
-      background-position-y : bottom;
-
-      background-image: url('../images/home-bg.png');
+    @media only screen and (min-width: 428px) {
+      background-size: cover;
+      background-position-y: 70%;
     }
 
     @media only screen and (min-width: 768px) {
-      padding-top: 60px;
-      padding-bottom: 60px;      
-      background-position-x: 80%;
-
+      height: 336px;
+      padding-top: 0;
       background-image: url('../images/home-bg-website.png');
+
+      .content {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+      }
     }
 
     @media only screen and (min-width: 992px) {
-      padding-top: 60px;
-      padding-bottom: 60px;      
-      background-position-x: 80%;
-
       background-image: url('../images/home-bg-website.png');
     }
 
     @media only screen and (min-width: 1200px) {
-      padding-top: 60px;
-      padding-bottom: 60px;
-
       background-image: url('../images/home-bg-website.png');
     }
 
