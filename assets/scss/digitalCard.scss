@@ -287,11 +287,16 @@ main.affiliate-page {
               display: flex;
               align-items: center;
               justify-content: center;
+
+              @media only screen and (max-width: 576px) {               
+                top: 35%;                
+              }
   
               @media only screen and (min-width: 992px) {
                 width:60px;
                 height:60px;
-                top: 35%;
+                top: 40%;
+                transform: translateY(-60%);
               }
             }
   
@@ -409,7 +414,7 @@ main.affiliate-page {
             button[data-controls='prev'],
             button[data-controls='next'] {
               position: absolute;
-              top: 45%;
+              top: 50%;
               z-index: 1;
               border: 0;
               background: #182129;
@@ -422,10 +427,14 @@ main.affiliate-page {
               align-items: center;
               justify-content: center;
 
+              @media only screen and (max-width: 576px) {
+                top: 40%;                
+              }
+
               @media only screen and (min-width: 992px) {
                 width: 60px;
                 height: 60px;
-                top: 40%;
+                top: 35%;                              
               }
             }
 
@@ -483,28 +492,33 @@ main.affiliate-page {
   
   section.triv-titleFooter {
     padding-top: 60px;
-    padding-bottom: 250px;
+    padding-bottom: 300px;
 
     background-image: url('../images/home-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-size: 115% 105%;
-    background-position-x: 50%;
+    background-position-y: bottom;
 
     @media only screen and (min-width: 576px) {
       padding-top: 60px;
+      padding-bottom: 375px;      
+      background-position-y : bottom;
+
+      background-image: url('../images/home-bg.png');
+    }
+
+    @media only screen and (min-width: 768px) {
+      padding-top: 60px;
       padding-bottom: 60px;
-      background-size: 170% 100%;
+      // background-size: 170% 100%;
       background-position-x: 50%;
 
       background-image: url('../images/home-bg-website.png');
     }
 
-    @media only screen and (min-width: 992px) {
+    @media only screen and (min-width: 1200px) {
       padding-top: 60px;
       padding-bottom: 60px;
-      background-size: 100% 100%;
-      background-position-x: 0;
 
       background-image: url('../images/home-bg-website.png');
     }
