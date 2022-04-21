@@ -1,0 +1,541 @@
+.triv-ff-montserratMedium{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+.triv-ff-montserratSemiBold {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+.triv-ff-montserratBold {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.triv-ff-montserratExtraBold {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+}
+
+main.affiliate-page {
+  .font-slider {
+    font-size: 42px;
+    @media only screen and (min-width: 992px) {
+      font-size: 90px;
+    }
+  }
+
+  .triv-h1 {
+    color: #252525;    
+    font-size: 44px;
+    line-height: 55px;
+    letter-spacing: -0.44px;
+
+    @media only screen and (min-width: 992px) {
+      font-size: 60px;
+      letter-spacing: -0.6px;
+    }
+  }
+
+  .triv-h2 {
+    font-size: 28px;
+    line-height: 42px;
+    letter-spacing: -0.28px;
+    color: white;
+
+    @media only screen and (min-width: 992px) {
+      font-size: 36px;
+      line-height: 55px;
+      letter-spacing: -0.36px;
+    }
+  }
+
+  .triv-h3 {
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.18px;
+    color: #202020;
+
+    // @media only screen and (min-width: 576px) {
+    //   font-size: 20px;
+    // }
+
+    @media only screen and (min-width: 992px) {
+      font-size: 28px;
+      line-height: 36px;
+      letter-spacing: -0.28px;
+    }
+  }
+
+  .triv-normal-font {
+    font-size: 28px;
+    color: #a4acbe;
+  }
+
+  .triv-percent-text {
+    font-size: 20px;
+    color: white;
+    width: 70%;
+  }
+
+  section.triv-title {
+    padding: 131px 20px;
+
+    background-image: url('../images/title_background_mobile.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    @media only screen and (min-width: 992px) {
+      padding: 191px 293px;
+    }
+
+    @media only screen and (min-width: 768px) {
+      background-image: url('../images/title_background.png');
+    }
+
+    .triv-button{
+      button{
+        font-size: 12px;
+
+        @media only screen and (min-width: 992px) {
+          font-size: 24.5px;
+        }
+      }
+    }
+
+    
+  }
+
+  section.triv-underTitle {
+    background-color: #252525;
+    padding: 90px 68px;
+
+    @media only screen and (min-width: 992px) {
+      padding: 90px 0;
+    }
+
+    .triv-content{    
+      img{
+        @media only screen and (min-width: 992px) {
+          height: 133px;
+        }
+      }  
+      div{
+        @media only screen and (min-width: 992px) {
+          height: 70px;
+        }
+        p{
+          font-size: 20px;
+          letter-spacing: -0.2px;
+          color: #a4acbe;
+  
+          @media only screen and (min-width: 992px) {
+            font-size: 22px;
+            letter-spacing: -0.22px;
+            color: #ffffff;
+          }
+        }
+      }
+
+      span{
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: -0.14px;
+        color: #ffffff;
+
+        @media only screen and (min-width: 992px) {
+          font-size: 20px;
+          letter-spacing: -0.2px;
+          color: #a4acbe;
+        }
+      }
+    }
+  }
+
+  section.triv-version{
+    background-color: #333333;
+
+    .triv-versionTitle{
+      padding: 75px 50px 35px;
+
+      @media only screen and (min-width: 992px) {
+        padding: 75px 130px 60px;
+      }
+
+      .triv-h3{
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.16px;
+        color: #a4acbe;
+  
+        @media only screen and (min-width: 992px) {
+          font-size: 28px;
+          line-height: 36px;
+          letter-spacing: -0.28px;
+        }
+      }
+    }
+
+    .nav{        
+      margin-bottom: 60px;
+      .nav-item{               
+        .nav-link{
+          &.active{
+            background-color: #484fc5;
+          }
+
+          color: white;
+          font-size: 14.5px;
+          line-height: 25.5px;
+          background-color: #686fe5;
+          border-radius: 8px;
+
+          @media only screen and (min-width: 992px) {
+            font-size: 22px;
+            line-height: 38.5px;            
+          }
+        }
+      }
+    }
+
+    .triv-tab1{
+      .triv-giftCardDigitalSlider {
+        .item{       
+          .content-1 {          
+            background-image: url('../images/1.png');
+          }
+    
+          .content-2 {          
+            background-image: url('../images/1.png');
+          }
+    
+          .content-3 {          
+            background-image: url('../images/1.png');
+          }
+    
+          .content-4 {          
+            background-image: url('../images/1.png');
+          }
+    
+          .content-5 {          
+            background-image: url('../images/1.png');
+          }
+    
+          .style-content {
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+            padding: 50px 125px 130px;
+            border-radius: 10px;
+            border: 8px solid white;        
+    
+            @media screen and (min-width: 576px) {
+              padding: 100px 210px 250px;          
+            }
+    
+            @media screen and (min-width: 768px) {
+              padding: 150px 300px 250px;          
+            }
+    
+            @media screen and (min-width: 992px) {
+              padding: 100px 100px 50px;
+              width: 100%;
+            }
+    
+            @media only screen and (min-width: 1200px) {
+              padding: 200px 100px 50px;
+              width: 100%;
+            }
+          }
+  
+          p{
+            color: #ffffff;
+            font-size: 14.5px;
+            line-height: 28.5px;
+            letter-spacing: -0.15px;
+  
+            @media screen and (min-width: 992px) {
+              font-size: 24px;
+              line-height: 36px;
+              letter-spacing: -0.24px;
+            }
+          }
+        }
+  
+        #giftCardDigital-ow {
+          position: relative;
+  
+          .tns-nav {
+            display: none;
+          }
+  
+          .tns-controls {
+  
+            button[data-controls='prev'],
+            button[data-controls='next'] {
+              position: absolute;
+              top: 40%;
+              z-index: 1;
+              border: 0;
+              background: #182129;
+              color: white;
+              border-radius: 100%;
+              width: 40px;
+              height: 40px;
+              padding: 8;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+  
+              @media only screen and (min-width: 992px) {
+                width:60px;
+                height:60px;
+                top: 35%;
+              }
+            }
+  
+            button[data-controls='prev'] {
+              left: 9px;
+  
+              @media screen and (min-width: 992px) {
+                left: -4%;
+              }
+            }
+  
+            button[data-controls='next'] {
+              right: 9px;
+  
+              @media screen and(min-width:992px) {
+                right: -4%;
+              }
+            }
+          }
+        }
+      }
+
+      .triv-tabFooter{
+        padding-top: 30px;
+        padding-bottom: 100px;
+
+        @media only screen and (min-width: 992px) {
+          padding-top: 50px;
+          padding-bottom: 120px;
+        }
+
+        button{
+          font-size: 16.5px;
+          color: white;
+
+          @media only screen and (min-width: 992px) {
+            font-size: 24.5px;            
+          }
+        }
+      }
+    }
+
+    .triv-tab2 {
+      .triv-giftCardFisikSlider {
+        .item {
+          .content-1 {
+            background-image: url('../images/1.png');
+          }
+
+          .content-2 {
+            background-image: url('../images/1.png');
+          }
+
+          .content-3 {
+            background-image: url('../images/1.png');
+          }
+
+          .content-4 {
+            background-image: url('../images/1.png');
+          }
+
+          .content-5 {
+            background-image: url('../images/1.png');
+          }
+
+          .style-content {
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+            padding: 50px 125px 130px;
+            border-radius: 10px;
+            border: 8px solid white;
+
+            @media screen and (min-width: 576px) {
+              padding: 100px 210px 250px;
+            }
+
+            @media screen and (min-width: 768px) {
+              padding: 150px 300px 250px;
+            }
+
+            @media screen and (min-width: 992px) {
+              padding: 100px 100px 50px;
+              width: 100%;
+            }
+
+            @media only screen and (min-width: 1200px) {
+              padding: 200px 100px 50px;
+              width: 100%;
+            }
+          }
+
+          p {
+            color: #ffffff;
+            font-size: 14.5px;
+            line-height: 28.5px;
+            letter-spacing: -0.15px;
+
+            @media screen and (min-width: 992px) {
+              font-size: 24px;
+              line-height: 36px;
+              letter-spacing: -0.24px;
+            }
+          }
+        }
+
+        #giftCardFisik-ow {
+          position: relative;
+
+          .tns-nav {
+            display: none;
+          }
+
+          .tns-controls {
+
+            button[data-controls='prev'],
+            button[data-controls='next'] {
+              position: absolute;
+              top: 45%;
+              z-index: 1;
+              border: 0;
+              background: #182129;
+              color: white;
+              border-radius: 100%;
+              width: 40px;
+              height: 40px;
+              padding: 8;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+
+              @media only screen and (min-width: 992px) {
+                width: 60px;
+                height: 60px;
+                top: 40%;
+              }
+            }
+
+            button[data-controls='prev'] {
+              left: 9px;
+
+              @media screen and (min-width: 992px) {
+                left: -4%;
+              }
+            }
+
+            button[data-controls='next'] {
+              right: 9px;
+
+              @media screen and(min-width:992px) {
+                right: -4%;
+              }
+            }
+          }
+        }
+      }
+
+      .triv-tabFooter {
+        padding-top: 30px;
+        padding-bottom: 100px;
+
+        @media only screen and (min-width: 992px) {
+          padding-top: 50px;
+          padding-bottom: 120px;
+        }
+
+        p {
+          font-size: 16px;
+          line-height: 24px;
+          letter-spacing: -0.16px;
+          color: #a4acbe;          
+
+          @media only screen and (min-width: 992px) {
+            font-size: 28px;
+            line-height: 36px;
+            letter-spacing: -0.28px;
+          }
+        }
+
+        img{
+          height: 27px;
+
+          @media only screen and (min-width: 992px) {
+            height: auto;
+          }
+        }
+      }
+    }
+  }
+  
+  section.triv-titleFooter {
+    padding-top: 60px;
+    padding-bottom: 250px;
+
+    background-image: url('../images/home-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @media only screen and (min-width: 992px) {
+      padding-top: 60px;
+      padding-bottom: 60px;
+
+      background-image: url('../images/home-bg-website.png');
+    }
+
+    .triv-heading {
+      font-size: 28px;
+      line-height: 36px;
+      letter-spacing: -0.28px;
+      color: #ffffff;
+
+      @media only screen and (min-width: 992px) {
+        font-size: 36px;
+        line-height: 55px;
+        letter-spacing: -0.36px;
+      }
+    }
+
+    .triv-caption {
+      font-size: 14px;
+      line-height: 22px;
+      letter-spacing: -0.14px;
+      color: #ffffff;
+
+      @media only screen and (min-width: 992px) {
+        font-size: 24px;        
+        letter-spacing: -0.24px;
+        line-height: 30px;
+      }
+    }
+
+    button{
+      font-size: 18px;
+      color: white;
+      background-color: transparent;
+      padding-left: 40px;
+      border: 1px solid white;
+
+      @media only screen and (min-width: 992px) {
+        font-size: 24.5px;
+        padding-left: 70px;
+      }
+    }
+
+    
+  }
+}
