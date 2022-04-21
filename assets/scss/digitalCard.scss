@@ -92,19 +92,21 @@ main.affiliate-page {
   }
 
   section.triv-title {
-    padding: 250px 20px;
-
+    height: 644px;
     background-image: url('../images/title_background_mobile.jpg');
-    background-size: 100% 100%;
+    background-size: cover;
     background-repeat: no-repeat;
 
-    @media only screen and (min-width: 576px) {
-      background-position-y: 50%;
+    @media only screen and (min-width: 436px) {
+      height: 620px;
+      background-image: url('../images/title_background.png');
+      background-size: cover;
     }
 
     @media only screen and (min-width: 992px) {
       background-image: url('../images/title_background.png');
-      padding: 191px 293px;
+      height: 620px;
+      background-size: cover;
     }
 
     .triv-button{
