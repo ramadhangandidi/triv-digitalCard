@@ -489,10 +489,23 @@ main.affiliate-page {
     background-image: url('../images/home-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
+    background-size: 115% 105%;
+    background-position-x: 50%;
+
+    @media only screen and (min-width: 576px) {
+      padding-top: 60px;
+      padding-bottom: 60px;
+      background-size: 170% 100%;
+      background-position-x: 50%;
+
+      background-image: url('../images/home-bg-website.png');
+    }
 
     @media only screen and (min-width: 992px) {
       padding-top: 60px;
       padding-bottom: 60px;
+      background-size: 100% 100%;
+      background-position-x: 0;
 
       background-image: url('../images/home-bg-website.png');
     }
