@@ -684,4 +684,8 @@ main.affiliate-page section.triv-titleFooter button {
     top: 5px;
   }
 }
+
+#main_menu > ul > li > a {
+  letter-spacing: -0.3px;
+}
 /*# sourceMappingURL=digitalCard.css.map */
