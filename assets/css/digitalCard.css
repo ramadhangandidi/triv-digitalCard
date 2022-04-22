@@ -554,7 +554,9 @@ main.affiliate-page section.triv-version .triv-tab2 .triv-tabFooter img {
 
 @media only screen and (min-width: 992px) {
   main.affiliate-page section.triv-version .triv-tab2 .triv-tabFooter img {
-    height: auto;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
   }
 }
 

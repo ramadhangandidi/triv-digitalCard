@@ -485,7 +485,7 @@ main.affiliate-page {
           height: 27px;
 
           @media only screen and (min-width: 992px) {
-            height: auto;
+            height: fit-content;
           }
         }
       }
