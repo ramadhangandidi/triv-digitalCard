@@ -660,4 +660,37 @@ main.affiliate-page section.triv-titleFooter button {
     padding-left: 70px;
   }
 }
+
+@media only screen and (max-width: 576px) {
+  .header .top-login-area .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 100%;
+  }
+}
+
+@media only screen and (min-width: 430px) {
+  .login-area .login-area-nav {
+    position: relative;
+    top: 5px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .login-area {
+    position: relative;
+  }
+  .login-area .login-area-nav {
+    right: 0;
+    position: absolute;
+    top: 5px;
+  }
+}
 /*# sourceMappingURL=digitalCard.css.map */

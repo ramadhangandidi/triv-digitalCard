@@ -582,3 +582,35 @@ main.affiliate-page {
     
   }
 }
+
+.header {
+  .top-login-area {
+    .container {
+        @media only screen and (max-width: 576px) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+      }
+    }
+  }
+}
+
+.login-area {
+  @media only screen and (min-width: 430px) {
+    .login-area-nav {
+      position: relative;
+      top: 5px;
+    }
+  }
+
+  @media only screen and (min-width: 992px) {
+    position: relative;
+
+    .login-area-nav {
+      right: 0;
+      position: absolute;
+      top: 5px;
+    }
+  }
+}

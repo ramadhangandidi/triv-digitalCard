@@ -112,7 +112,7 @@ a:hover {
 .login-area-nav li {
   display: inline-block !important;
   font-size: 15px;
-  margin: 4px 10px;
+  margin: 4px 7px;
   padding-right: 20px;
   border-right: none !important;
 }
@@ -156,4 +156,5 @@ a:hover {
   border-radius: 2px;
   font-size: 12px;
   font-weight: bold;
+  padding: 3px 7px;
 }
